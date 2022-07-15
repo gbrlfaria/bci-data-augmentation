@@ -1,0 +1,24 @@
+name: bci-data-augmentation
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - matplotlib
+  - seaborn
+  - jupyter
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - pytorch
+  - cudatoolkit=11.3
+  - skorch
+  - pip
+  - pip:
+      - wandb
+      - mne
+      - braindecode
+      - moabb
+      - torchinfo
+      - emd
